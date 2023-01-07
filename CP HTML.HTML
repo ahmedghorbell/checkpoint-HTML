@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CP HTML</title>
+    <title>CP HTML CSS </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <br>
+    <header class="navbar">
         <ul>
             <li><a href="#Home">Home</a></li>
             <li><a href="#About">About</a></li>
@@ -17,7 +19,7 @@
         </ul>
     </header>
     <main>
-        <section id="Home">
+        <section id="Home" class="Home">
             <h1> Sing in </h1>
             <label for="email"> Please enter your email </label>
             <input type="email" name="email">
@@ -28,21 +30,22 @@
         <br>
         <br>
         <section id="About">
-            <h4> This my profil </h4>
-            <a href="https://github.com/ahmedghorbell"> Profil github </a>
+            <h4> This my profil : </h4>
+            <a class="button" href="https://github.com/ahmedghorbell" class="git"> Profil github </a>
         </section>
         <section id="Work">
-            <h2><i>Here is a screenshot from my first website.</i></h2>
+            <h2><i>This is a screenshot from my first website.</i></h2>
             <img src="Screenshot 2023-01-01 211027.png" height="400px" alt=" my first website ">
         </section>
         <br>
         <br>
         <section id="Resume">
-            <h2><p>This video is one of several resources and 
+            <p>This video is one of several resources and 
                 training programs you may utilize to learn how to become
-                 a web developer.</p></h2>
+                 a web developer:</p>
                  <iframe width="700" height="430" src="https://www.youtube.com/embed/MDLn5-zSQQI" title="HTML Tutorial For Beginners |HTML In 10 Minutes | HTML Basics For Beginners | Simplilearn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>   <h3> For more informations </h3>
+        </section>   
+        <h3> For more training programs: </h3>
         <table>
             <tr>
               <th>HTML</th>
@@ -55,28 +58,31 @@
               <td>Visit the link below</td>
             </tr>
             <tr>
-              <td><a href="https://www.w3schools.com/html/default.asp"> Click here</a></td>
-              <td><a href="https://www.w3schools.com/css/default.asp"> Click here</a></td>
-              <td><a href="https://www.w3schools.com/js/default.asp"> Click here</a></td>
+              <td><a class="a" href="https://www.w3schools.com/html/default.asp"> Click here</a></td>
+              <td><a class="a" href="https://www.w3schools.com/css/default.asp"> Click here</a></td>
+              <td><a class="a" href="https://www.w3schools.com/js/default.asp"> Click here</a></td>
             </tr>
           </table>
-        <br>
         <br>
         <section id="Contact">
             <h3> For more informations please contact us: </h3>
             <label for="number"> </label>
             <input type="number" name="number">
             <br>
-            <h3> you can leave a messege here </h3>
+            <h3> you can leave a messege here: </h3>
             <label for="text"></label>
             <input type="text" name="text">
         </section>
     </main>
     <footer>
-        <h1><i>We appreciate your visit and hope you enjoy this website.</i></h1>
+        <i> We appreciate your visit and hope you enjoy this website.</i>
+        <br>
+        <br>
         <audio controls>
             <source src="Cool Upbeat.mp3" >
           </audio>
     </footer>
+    <br>
+    <br>
 </body>
 </html>
